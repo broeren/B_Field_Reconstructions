@@ -8,7 +8,7 @@ We implement three mathematical techniques to reconstructed the magnetic field a
 The Curlometer method does not assume Taylor's hypothesis holds. It therefore scans through the timeseries of magnetic field measurements and uses tetrahedra drawn from measurements made at the same time to perform a reconstruction of the magnetic field near the barycenter of the configuration. See the GitHub repo [Curlometer_Extension](https://github.com/broeren/Curlometer_Extension) for details on how the Curlometer is applied to configurations of $N$ spacecraft.
 
 <p align="center">
-<img src="figures/Curlometer/By_recon_xy.png" width=60%> <img src="figures/Curlometer/Brecon_error.png" width=40%>
+<img src="figures/Curlometer/By_recon_xy.png" width=60%> 
 </p>
 
 ### RBF
@@ -24,3 +24,11 @@ Timesync reconstruction is our own method of reconstructing magnetic fields. It 
 <p align="center">
 <img src="figures/Timesync/By_recon_xy.png" width=60%>
 </p>
+
+## Error in Methods
+We compute the point-wise error in the reconstructed vs simulated magnetic field. We also demonstrate how to compute the relative Wasserstein distance $\bar{W}_d(B_x)$ for each field and report the median value, as well as 10-90% interval.
+
+<img src="figures/Curlometer/Brecon_error.png" width=33%> <img src="figures/RBF/Brecon_error.png" width=33%> <img src="figures/Timesync/Brecon_error.png" width=33%>
+
+# References
+This work is based on a paper that is currently under review. (link coming in the future)
