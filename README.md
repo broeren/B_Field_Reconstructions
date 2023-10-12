@@ -28,7 +28,7 @@ Timesync reconstruction is our own method of reconstructing magnetic fields. It 
 ## Error in Methods
 We compute the point-wise error in the reconstructed vs simulated magnetic field. We also demonstrate how to compute the relative Wasserstein distance $\overline{W}_d(B_x)$ for each field and report the median value, as well as 10-90% interval.
 
-<img src="figures/Curlometer/Brecon_error.png" width=33%> <img src="figures/RBF/Brecon_error.png" width=33%> <img src="figures/Timesync/Brecon_error.png" width=33%>
+<img src="figures/Curlometer/Brecon_error.png" width=32%> <img src="figures/RBF/Brecon_error.png" width=32%> <img src="figures/Timesync/Brecon_error.png" width=32%>
 
 # References
 This work is based on a paper that is currently under review. (link coming in the future)
