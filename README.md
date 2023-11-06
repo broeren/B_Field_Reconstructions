@@ -31,4 +31,4 @@ We compute the point-wise error in the reconstructed vs simulated magnetic field
 <img src="figures/Curlometer/Brecon_error.png" width=32%> <img src="figures/RBF/Brecon_error.png" width=32%> <img src="figures/Timesync/Brecon_error.png" width=32%>
 
 # References
-This work is based on a paper that is currently under review. (link coming in the future)
+This work is based on a paper that is currently under review. ([arXiv link](https://arxiv.org/abs/2310.15187))
