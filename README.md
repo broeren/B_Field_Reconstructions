@@ -4,8 +4,8 @@ We implement three mathematical techniques to reconstructed the magnetic field a
 ## Reconstruction Methods
 <img src="figures/All_methods.jpg" width=100%>
 
-### Curlometer
-The Curlometer method does not assume Taylor's hypothesis holds. It therefore scans through the timeseries of magnetic field measurements and uses tetrahedra drawn from measurements made at the same time to perform a reconstruction of the magnetic field near the barycenter of the configuration. See the GitHub repo [Curlometer_Extension](https://github.com/broeren/Curlometer_Extension) for details on how the Curlometer is applied to configurations of $N$ spacecraft.
+### Linear Method
+The Linear method does not assume Taylor's hypothesis holds. It therefore scans through the timeseries of magnetic field measurements and uses tetrahedra drawn from measurements made at the same time to perform a reconstruction of the magnetic field near the barycenter of the configuration. See the GitHub repo [Curlometer_Extension](https://github.com/broeren/Curlometer_Extension) for details on how the Linear method is applied to configurations of $N$ spacecraft.
 
 <p align="center">
 <img src="figures/Curlometer/By_recon_xy.png" width=60%> 
