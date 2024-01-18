@@ -1,5 +1,5 @@
 # Magnetic Field Reconstructions
-We implement three mathematical techniques to reconstructed the magnetic field around a multispacecraft configuration taking sparse measurements: Curlometer, Radial Basis Function (RBF), and Timesync.
+We implement three mathematical techniques to reconstructed the magnetic field around a multispacecraft configuration taking sparse measurements: Linear, Radial Basis Function (RBF), and Timesync.
 
 ## Reconstruction Methods
 <img src="figures/All_methods.jpg" width=100%>
